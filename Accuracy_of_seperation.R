@@ -1,6 +1,6 @@
 library(dplyr)
 library(ggplot2)
-
+ 
 # Function to generate file paths
 generate_file_path <- function(base_dir, prefix, kmer_length, suffix) {
   file_name <- paste(prefix, kmer_length, suffix, sep = "_")
