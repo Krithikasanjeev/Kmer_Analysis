@@ -1,4 +1,4 @@
-library(dplyr) 
+library(dplyr)
 
 # Function to calculate Kullback-Leibler (KL) divergence and Jensen-Shannon Distance (JS) for given positive and negative files
 calculate_KL_and_JS <- function(positive_file, negative_file) {
