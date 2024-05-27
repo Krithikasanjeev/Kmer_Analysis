@@ -1,4 +1,4 @@
-library(dplyr)
+library(dplyr) 
 library(Biostrings)
 
 # Function to calculate super entropy for sequences in a directory
