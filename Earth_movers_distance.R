@@ -2,7 +2,7 @@ calculate_emd <- function(folder_path) {
   # Initialize a data frame to store calculated Earth Mover's Distance (EMD) sums
   calculated_sums <- data.frame(kmer = character(), EMD = numeric())
     
-  # List the files in the directory
+  # List the files in the directory 
   files <- list.files(folder_path, full.names = TRUE)
   
   # Loop through different files
